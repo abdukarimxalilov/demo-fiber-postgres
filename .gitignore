@@ -1,0 +1,24 @@
+# Go build artifacts
+*.exe
+*.out
+*.test
+
+# Fiber hot-reload files (if using air)
+.air.toml
+
+# Ignore Go modules cache
+go.sum
+go.mod
+
+# Ignore environment/config files (store them securely instead)
+/env
+.env.local
+config.yaml
+config.json
+
+# Logs and temporary files
+*.log
+*.swp
+*.bak
+*.tmp
+nohup.out
